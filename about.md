@@ -9,11 +9,11 @@ permalink: /about/
   <h1>Hello, I'm Anant Srivastava 👋</h1>
 
   <p>
-    I'm a curious, passionate, and versatile professional who bridges the world of technology, economics, and innovation. 
+    I'm a curious and passionate, individual who is trying to bridge the world of technology, economics, and innovation. 
   </p>
 
   <p>
-    With a background in computer science and software development, I've spent over six years creating robust solutions, but my heart has always gravitated toward the fascinating complexities of macroeconomics. I'm driven by curiosity—whether it's exploring the latest AI research, designing machine learning models, or dissecting intraday market moves through options trading.
+    With a background in computer science and software development, I've spent over six years creating robust solutions, but my heart has always gravitated toward the fascinating complexities of macroeconomics. I'm driven by curiosity—whether it's exploring the latest AI research, designing machine learning models, or dissecting derivates and the math behind their greeks, it gives me immense pleasure in cutting throght the chaos and seeing patterns.
   </p>
 
   <p>
