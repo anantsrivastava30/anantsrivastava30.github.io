@@ -1,4 +1,27 @@
 /* css/main.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav, footer {
+    flex-shrink: 0;
+  }
+  
+  .container {
+    flex: 1;
+    width: 100%;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
