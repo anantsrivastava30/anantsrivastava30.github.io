@@ -109,3 +109,23 @@ html, body {
     margin: 0 10px;
   }
   
+  /* Option chain table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem auto;
+  }
+  
+  th, td {
+    padding: 0.6rem;
+    border: 1px solid #EEE2D6;
+  }
+  
+  th {
+    background-color: #FFF8EE;
+    font-weight: 500;
+  }
+  
+  td {
+    background-color: #FFFBF6;
+  }
