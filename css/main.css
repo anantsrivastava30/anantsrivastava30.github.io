@@ -97,4 +97,15 @@ html, body {
   footer a:hover {
     text-decoration: underline;
   }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
   
