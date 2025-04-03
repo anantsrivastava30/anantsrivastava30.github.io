@@ -24,3 +24,38 @@
 		</footer>
 	</body>
 </html>
+
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/cv">CV</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer>
+	<ul>
+		<li>&copy; 2025 Anant Srivastava &middot; <a href="mailto:{{ site.email }}">Contact Me</a></li>
+		<li><a href="https://github.com/anantsrivastava30">github.com/anantsrivastava30</a></li>
+	</ul>
+  </footer>
+  <footer>
+    
+  </footer>
+</body>
+</html>
