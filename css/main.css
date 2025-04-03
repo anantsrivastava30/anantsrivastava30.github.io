@@ -1,4 +1,4 @@
-/* css/main.css */
+/* Reset and full viewport coverage */
 html, body {
     height: 100%;
     margin: 0;
@@ -8,30 +8,13 @@ html, body {
   body {
     display: flex;
     flex-direction: column;
-  }
-  
-  nav, footer {
-    flex-shrink: 0;
-  }
-  
-  .container {
-    flex: 1;
-    width: 100%;
-  }
-  
-  footer {
-    margin-top: auto;
-  }
-
-body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #FFFBF6;
     color: #333;
-    margin: 0;
-    padding: 0;
   }
   
+  /* Navigation styling */
   nav {
     padding: 1.5rem;
     text-align: center;
@@ -61,18 +44,24 @@ body {
     color: #E09145;
   }
   
+  /* Container takes full available height */
   .container {
+    flex: 1;
+    width: 100%;
     max-width: 700px;
-    margin: 3rem auto;
     padding: 1.5rem;
+    margin: 0 auto;
     text-align: center;
+    box-sizing: border-box; /* important to keep padding inside dimensions */
   }
   
+  /* Typography adjustments */
   h1, h2, h3 {
     color: #222;
     margin-bottom: 1rem;
   }
   
+  /* Blurb styling */
   .blurb {
     padding: 1rem;
     border-radius: 8px;
@@ -89,6 +78,7 @@ body {
     text-decoration: underline;
   }
   
+  /* Footer placed at bottom */
   footer {
     padding: 1rem;
     text-align: center;
@@ -96,6 +86,7 @@ body {
     border-top: 1px solid #EEE2D6;
     font-size: 0.9rem;
     color: #777;
+    flex-shrink: 0;
   }
   
   footer a {
@@ -106,3 +97,4 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
+  
